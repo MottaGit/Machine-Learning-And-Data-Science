@@ -1,8 +1,9 @@
 # SLAM - Simultanous Localization And Mapping.
 # Usado para ambientes em que um robô móvel está se movendo em um ambiente desconhecido e tentando construir um mapa de seus arredores.
-# Este algoritmo lê um mapa (planta de uma casa) e usa o cursor do mouse como o robô que está navegando pelo ambiente, e mapeando a área com os sensores simulados.
-# Simula o LIDAR sensor (Laser Detection and Ranging) tento como origem o cursor do mouse.
-# A próxima etapa desta aplicação seria, seria extrair os dados armazenados pelo sensor LIDAR e determinar a locação deste robô.
+# Este algoritmo lê um mapa (planta de uma casa) e simula através do cursor do mouse a navegação do robo no ambiente, mapeando a área com os sensores simulados, e armazenando os dados (posições das paredes).
+# Simula o sensor LiDAR (Laser Detection and Ranging) tendo como origem o cursor do mouse.
+
+# A próxima etapa desta aplicação, seria extrair os dados armazenados pelo sensor LIDAR e determinar a localização deste robô.
 
 from SLAM import env, sensors
 import pygame
